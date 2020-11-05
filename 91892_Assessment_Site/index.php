@@ -58,7 +58,7 @@
         </div> <!-- / side bar -->
         
         <div class="box footer">
-            CC GTT 20XX
+            CC Kahlil Grocott 2020
         </div> <!-- / footer -->
                 
         
