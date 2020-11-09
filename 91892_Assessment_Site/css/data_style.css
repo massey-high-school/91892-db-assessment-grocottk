@@ -1,7 +1,7 @@
 body {
     margin: auto;
     padding: 50px;
-    color: #000;
+    color: #fcb131;
     font-family: 'Lato', sans-serif;
 }
 
@@ -24,14 +24,14 @@ body {
 /* Set up grid */
 .wrapper {
     display: grid;
-    grid-template-columns: 300px;
+    grid-template-columns: 331px;
     grid-template-rows: auto;
     grid-template-areas: 
         "logo banner"
         "side main"
         "foot foot";
         
-    background-color: #fff;
+    background-color: #fcb131;
     grid-gap: 4px;
     }
 
@@ -45,17 +45,17 @@ body {
 
 /* make logo and banner the same colour */
 .logo, .main {
-    background-color: #dfcfbc;  /* beige */
+    background-color: #ed2142;  /* beige */
 }
 
 .banner, .side {
-    background-color: #d6d3d7; /* blue grey */
+    background-color: #ed2142; /* blue grey */
 }
 
 
 .logo {
     grid-area: logo;
-    height: 150px;
+    height: 152px;
     border-radius: 0 5px 5px 0;
     padding-left: 0;
     padding-top: 0;
@@ -77,7 +77,7 @@ body {
 
 .main {
     grid-area: main;
-    color: #000;
+    color: #fcb131;
 }
 
 .side {
@@ -88,7 +88,7 @@ body {
 .footer {
     grid-area: foot;
     text-align: right;
-    color: #fff;
+    color: #fcb131;
     background-color: #636263;
 }
 
