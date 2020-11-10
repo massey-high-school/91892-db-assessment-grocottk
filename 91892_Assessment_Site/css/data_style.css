@@ -1,10 +1,12 @@
+/* The body of the page (backgound colour usage from: https://www.w3schools.com/css/css_background.asp) */
 body {
     margin: auto;
     padding: 50px;
     color: #fcb131;
     font-family: 'Lato', sans-serif;
+    background-color: #cccccc;
+    background-image: linear-gradient(red, yellow);
 }
-
 
 /* hide message if browser supports grid */
 @supports(display:grid) {
@@ -24,7 +26,7 @@ body {
 /* Set up grid */
 .wrapper {
     display: grid;
-    grid-template-columns: 331px;
+    grid-template-columns: 331px 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
         "logo banner"
