@@ -46,7 +46,7 @@
     
         <!-- logo / small image goes here -->
         <div class="box logo">
-            <a href="index.php"><img src="images/logo.png" width="331" height="152" alt="Olympic Rings" /></a>
+            <a href="index.php"><img class="logo-image" src="images/logo.png" alt="Olympic Rings" /></a>
         </div> <!-- / logo -->
         
         <div class="box banner">
